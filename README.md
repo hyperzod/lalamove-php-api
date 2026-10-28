@@ -6,6 +6,14 @@ This provides a PHP wrapper around the Lalamove API (v2 and v3). Currently suppo
 
 Built and maintained by [Foodkit](https://foodkit.io).
 
+> **Hyperzod fork.** This is Hyperzod's fork of [foodkit/lalamove-php-api](https://github.com/foodkit/lalamove-php-api),
+> published as `hyperzod/lalamove-sdk-php`. It adds Carbon 3 support and PHP 8.4 compatibility.
+> The `Lalamove\` namespace is unchanged.
+>
+> ```
+> composer require hyperzod/lalamove-sdk-php
+> ```
+
 ## Running the tests ##
 
 ```
