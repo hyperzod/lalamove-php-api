@@ -1,6 +1,6 @@
 {
-  "name": "foodkit/lalamove-php-api",
-  "description": "PHP client for the Lalamove API",
+  "name": "hyperzod/lalamove-sdk-php",
+  "description": "PHP client for the Lalamove API (Hyperzod fork of foodkit/lalamove-php-api)",
   "type": "library",
   "require": {
     "php": "^8.0",
