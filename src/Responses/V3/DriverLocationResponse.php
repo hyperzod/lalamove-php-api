@@ -20,7 +20,7 @@ class DriverLocationResponse
 
     public ?Location $coordinates;
 
-    public function __construct(object $response = null)
+    public function __construct(?object $response = null)
     {
         $this->driverId = $response ? $response->driverId : '';
         $this->name = $response ? $response->name : '';

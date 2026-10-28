@@ -28,7 +28,7 @@ class Address
         $this->remarks = $remarks;
     }
 
-    public static function make(string $displayString, string $city, string $country, string $floor = null, string $room = null, string $remarks = null): self
+    public static function make(string $displayString, string $city, string $country, ?string $floor = null, ?string $room = null, ?string $remarks = null): self
     {
         return new static($displayString, $city, $country, $floor, $room, $remarks);
     }

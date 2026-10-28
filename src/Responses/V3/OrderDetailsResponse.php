@@ -28,7 +28,7 @@ class OrderDetailsResponse
     /** @var Stop[] */
     public array $stops = [];
 
-    public function __construct(object $response = null)
+    public function __construct(?object $response = null)
     {
         $response = $response->data ?? null;
 

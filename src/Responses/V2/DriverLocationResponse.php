@@ -12,7 +12,7 @@ class DriverLocationResponse
 
     public ?string $updatedAt;
 
-    public function __construct(object $response = null)
+    public function __construct(?object $response = null)
     {
         $this->location = $response ? new Location($response->location->lat, $response->location->lng) : null;
         $this->updatedAt = $response ? $response->updatedAt : null;

@@ -10,7 +10,7 @@ class OrderResponse
     
     public ?string $orderRef;
 
-    public function __construct(object $response = null)
+    public function __construct(?object $response = null)
     {
         $this->customerOrderId = $response ? $response->customerOrderId : null;
         $this->orderRef = $response ? $response->orderRef : null;
