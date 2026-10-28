@@ -32,8 +32,8 @@ class LalamoveRequest
         $method = 'GET',
         $uri = '',
         $params = [],
-        UuidGeneratorInterface $uuid = null,
-        ClockInterface $clock = null
+        ?UuidGeneratorInterface $uuid = null,
+        ?ClockInterface $clock = null
     ) {
         $this->settings = $settings;
         $this->method   = $method;

@@ -27,7 +27,7 @@ abstract class AbstractResource
 
     protected $settings;
 
-    public function __construct($settings, TransportInterface $transport = null)
+    public function __construct($settings, ?TransportInterface $transport = null)
     {
         $this->settings = $settings;
         $this->transport = $transport ?: new GuzzleTransport();

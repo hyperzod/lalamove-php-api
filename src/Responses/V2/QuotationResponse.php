@@ -10,7 +10,7 @@ class QuotationResponse
 
     public ?string $totalFee;
 
-    public function __construct(object $response = null)
+    public function __construct(?object $response = null)
     {
         $this->totalFeeCurrency = $response ? $response->totalFeeCurrency : null;
         $this->totalFee = $response ? $response->totalFee : null;

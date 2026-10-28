@@ -39,7 +39,7 @@ class Settings
         $privateKey = '',
         $country = '',
         $version = self::VERSION_2,
-        LoggerInterface $logger = null
+        ?LoggerInterface $logger = null
     ) {
         $this->host       = $host;
         $this->customerId = $customerId;

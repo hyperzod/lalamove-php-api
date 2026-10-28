@@ -34,7 +34,7 @@ class Settings
         $apiSecret = '',
         $country = '',
         $version = self::VERSION_3,
-        LoggerInterface $logger = null
+        ?LoggerInterface $logger = null
     ) {
         $this->host       = $host;
         $this->apiKey     = $apiKey;

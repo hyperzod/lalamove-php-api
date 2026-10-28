@@ -18,7 +18,7 @@ class OrderDetailsResponse
 
     public ?string $status;
 
-    public function __construct(object $response = null)
+    public function __construct(?object $response = null)
     {
         $this->driverId = $response ? $response->driverId : null;
         $this->status = $response ? $response->status : null;

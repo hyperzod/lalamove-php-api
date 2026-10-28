@@ -13,7 +13,7 @@ use Lalamove\Responses\V2\OrderResponse;
 
 class OrdersResource extends AbstractResource
 {
-    public function __construct(Settings $settings, TransportInterface $transport = null)
+    public function __construct(Settings $settings, ?TransportInterface $transport = null)
     {
         parent::__construct($settings, $transport);
     }

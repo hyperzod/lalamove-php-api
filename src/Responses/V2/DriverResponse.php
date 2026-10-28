@@ -10,7 +10,7 @@ class DriverResponse
 
     public ?string $phone;
 
-    public function __construct(object $response = null)
+    public function __construct(?object $response = null)
     {
         $this->name = $response ? $response->name : null;
         $this->phone = $response ? $response->phone : null;
